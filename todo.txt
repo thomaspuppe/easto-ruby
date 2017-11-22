@@ -1,7 +1,6 @@
 # TODO
 http://todotxt.org
 
-[TODO-1] Combine layout and content
 [TODO-2] Render page title
 [TODO-3] Render a home page, listing subpages
 [TODO-4] Have static files (CSS)
@@ -18,3 +17,8 @@ http://todotxt.org
             <footer>&mdash; {{ author }}</footer>
         </blockquote>
 --
+
+
+# DONE
+
+x [TODO-1] Combine layout and content

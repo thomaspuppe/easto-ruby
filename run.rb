@@ -12,6 +12,9 @@ Dir.foreach('content') do |item|
 
     target_path = 'output/' + item.gsub('.md', '.html')
     target = open(target_path, 'w')
-    target.write(file_content)
+
+    template = File.read('templates/layout.html')
+    page = template.gsub('{{ CONTENT_BODY }}', file_content)
+    target.write(page)
     puts '- wrote file ' + target_path
 end
