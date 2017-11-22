@@ -1,0 +1,20 @@
+# TODO
+http://todotxt.org
+
+[TODO-1] Combine layout and content
+[TODO-2] Render page title
+[TODO-3] Render a home page, listing subpages
+[TODO-4] Have static files (CSS)
+
+
+--
+[EPIC-1] Content types should trigger subtemlates
+    Needed to convert structured data to HTML. For example:
+    QUOTE = {text: 'Ich bin ein Berliner', 'author': 'John F. Kennedy'}
+
+    quote.html: 
+        <blockquote>
+            <p>{{ text }}</p>
+            <footer>&mdash; {{ author }}</footer>
+        </blockquote>
+--
