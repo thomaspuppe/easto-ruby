@@ -3,7 +3,6 @@ http://todotxt.org
 
 [TODO-2] Render page title
 [TODO-3] Render a home page, listing subpages
-[TODO-4] Have static files (CSS)
 
 
 --
@@ -21,4 +20,5 @@ http://todotxt.org
 
 # DONE
 
+x [TODO-4] Have static files (CSS)
 x [TODO-1] Combine layout and content
