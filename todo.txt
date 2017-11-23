@@ -3,7 +3,6 @@ http://todotxt.org
 
 [TODO-2] Render page title
 [TODO-3] Render a home page, listing subpages
-[TODO-4] Add "redcarpet" gem to requirements
 [TODO-5] Add Markdown Install+Benchmark to docs (https://www.sitepoint.com/markdown-processing-ruby/) +content
 
 --
@@ -21,5 +20,6 @@ http://todotxt.org
 
 # DONE
 
+x [TODO-6] Add "redcarpet" gem to requirements
 x [TODO-4] Have static files (CSS)
 x [TODO-1] Combine layout and content
