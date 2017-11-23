@@ -1,4 +1,5 @@
 require 'fileutils'
+require 'redcarpet'
 
 filecounter = 0
 Dir.foreach('content') do |item|
@@ -6,6 +7,8 @@ Dir.foreach('content') do |item|
 
     file_path = 'content/' + item
     file_content = File.read(file_path)
+
+    file_content = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new).render(file_content)
 
     target_path = 'output/' + item.gsub('.md', '.html')
     target = open(target_path, 'w')

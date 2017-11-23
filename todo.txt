@@ -3,7 +3,8 @@ http://todotxt.org
 
 [TODO-2] Render page title
 [TODO-3] Render a home page, listing subpages
-
+[TODO-4] Add "redcarpet" gem to requirements
+[TODO-5] Add Markdown Install+Benchmark to docs (https://www.sitepoint.com/markdown-processing-ruby/) +content
 
 --
 [EPIC-1] Content types should trigger subtemlates
