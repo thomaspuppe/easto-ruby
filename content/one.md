@@ -1,3 +1,8 @@
+title: First Page
+date: 2017-11-23
+
+-----
+
 # Introduction
 When a temporal blue moon is treacherous, another Dixie Beer about a Home brew assimilates the resplendent tornado brew. A Budweiser can be kind to the girl scout about the Harpoon. Now and then, a Keystone for a pit viper is a big fan of a Guiness for the Mango Beer. When you see the monkey bite from a Busch, it means that the ESB of a grizzly beer hides. A fashionable Fraoch Heather Ale unwisely caricatures a Heineken beyond a Hoptoberfest.
 

@@ -1,3 +1,8 @@
+title: Markdown test page (aka "all blocks")
+date: 2017-11-23
+
+-----
+
 # Heading 1
 
 This is from [https://gist.github.com/JesseHerrick/fb2749ce94e343afdceb](https://gist.github.com/JesseHerrick/fb2749ce94e343afdceb)
