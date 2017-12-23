@@ -18,9 +18,8 @@ Dir.foreach('content') do |item|
 
     meta = YAML.load(file_meta)
     meta.each do |key,value|
-        if key == 'title'
-            page = page.gsub('{{ META_TITLE }}', value)
-        end
+        replacement_string = "{{ META_" + key.upcase + " }}"
+        page = page.gsub(replacement_string, value.to_s())
     end
 
     file_body = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new).render(file_body)
