@@ -2,6 +2,9 @@
 http://todotxt.org
 
 [TODO-3] Render a home page, listing subpages
+         But ... this nails easto down to being a blog generator (which is fine for me).
+         Alternative: Have a global POSTS array, which is available to a template-engine powered loop inside index.md.
+
 [TODO-5] Add Markdown Install+Benchmark to docs (https://www.sitepoint.com/markdown-processing-ruby/) +content
 
 --
