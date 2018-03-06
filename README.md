@@ -1,5 +1,10 @@
+Note: This was a first experiment. But I decided to continue in JavaScript: https://github.com/thomaspuppe/easto
+
+---
+
 # easto
 A static-site generator
+
 
 ## Run
 
